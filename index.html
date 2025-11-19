@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chuleta de Comandos Linux</title>
+    <link rel="stylesheet" href="/css/style2.css">
+</head>
+
+<body>
+    <h1>Chuleta de Comandos Básicos de Linux</h1>
+
+    <!-- Contenedor que agrupa buscador y grid -->
+    <div class="center-container">
+        <input type="text" id="search" placeholder="🔍 Buscar comando..." />
+
+        <!-- Encabezados -->
+        <div class="grid-container header">
+            <div>Categoría</div>
+            <div>Comando</div>
+            <div>Descripción</div>
+        </div>
+
+        <!-- Bloques de comandos -->
+        <div id="grid">
+            <div class="grid-container row">
+                <div class="item">Navegación</div>
+                <div class="item code"><code>pwd</code></div>
+                <div class="item">Muestra la ruta actual</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Navegación</div>
+                <div class="item code"><code>ls</code></div>
+                <div class="item">Lista archivos y carpetas</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Navegación</div>
+                <div class="item code"><code>cd &lt;dir&gt;</code></div>
+                <div class="item">Cambia de directorio</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"><code>touch archivo.txt</code></div>
+                <div class="item">Crea un archivo vacío</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"><code>mkdir carpeta</code></div>
+                <div class="item">Crea una carpeta</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"><code>rm archivo.txt</code></div>
+                <div class="item">Elimina un archivo</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Sistema</div>
+                <div class="item code"><code>uname -a</code></div>
+                <div class="item">Información del kernel</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Sistema</div>
+                <div class="item code"><code>top</code></div>
+                <div class="item">Procesos en tiempo real</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Red</div>
+                <div class="item code"><code>ping google.com</code></div>
+                <div class="item">Verifica conexión a internet</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Red</div>
+                <div class="item code"><code>ip a</code></div>
+                <div class="item">Muestra interfaces de red</div>
+            </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Red</div>
+                <div class="item code"><code>curl (url)</code></div>
+                <div class="item"> Descarga contenido de una URL.</div>
+            </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Red</div>
+                <div class="item code"><code>wget (url)</code></div>
+                <div class="item">Descarga archivos desde la web.</div>
+            </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Red</div>
+                <div class="item code"><code>ssh usuario@host</code></div>
+                <div class="item">Conexión remota por SSH.</div>
+            </div>
+
+
+
+            <div class="grid-container row">
+                <div class="item">Red</div>
+                <div class="item code"><code>netstat -tulnp</code></div>
+                <div class="item">Muestra conexiones de red y puertos abiertos.</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Paquetes</div>
+                <div class="item code"><code>apt update</code></div>
+                <div class="item"> Actualiza lista de paquetes (Debian/Ubuntu).</div>
+            </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Paquetes</div>
+                <div class="item code"><code>apt upgrade</code></div>
+                <div class="item">Actualiza paquetes instalados.</div>
+            </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Paquetes</div>
+                <div class="item code"><code>pacman -S paquete</code></div>
+                <div class="item"> Instala un paquete (Arch Linux).</div>
+            </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"><code>cp (origen) y (destino)</code></div>
+                <div class="item"> Copia archivos o carpetas.</div>
+            </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"><code>cat (archivo)</code></div>
+                <div class="item">Muestra el contenido de un archivo.</div>
+            </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"><code>less (archivo.txt)</code></div>
+                <div class="item"> Muestra el contenido de un archivo página por página.</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"> <code>tail -f archivo.log</code></div>
+                <div class="item">Sigue en tiempo real un archivo de log.</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"> <code>mv (archivo) (destino)</code></div>
+                <div class="item"> Mueve o renombra archivos o carpetas.</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
