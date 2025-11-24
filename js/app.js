@@ -15,3 +15,39 @@ searchInput.addEventListener("input", () => {
         }
     });
 });
+
+
+
+/// Escroll Reveral ///
+console.log("GSAP disponible:", typeof gsap); // debería mostrar "object"
+
+console.log("script.js cargado");
+
+ScrollReveal().reveal('.elemento', {
+    duration: 2000,
+    easing: 'ease-out',
+    reset: false
+});
+
+ScrollReveal().reveal('#search',{
+    delay:200
+});
+
+
+
+ScrollReveal().reveal('.grid-container', {
+
+  origin: 'bottom',
+  distance: '40px',
+  duration: 600,
+  delay:600,
+  viewOffset: { top: 0, bottom: 0 }, // sin margen extra
+  interval: 200, // cada elemento aparece con 200ms de diferencia
+  reset: false
+
+})
+
+ScrollReveal().reveal('.grid-container',{ 
+    origin: 'left', 
+    distance: '80px' 
+});
