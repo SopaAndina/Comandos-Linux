@@ -35,19 +35,14 @@ ScrollReveal().reveal('#search',{
 
 
 
-ScrollReveal().reveal('.grid-container', {
+ScrollReveal().reveal('.efecto', {
 
   origin: 'bottom',
   distance: '40px',
   duration: 600,
   delay:600,
-  viewOffset: { top: 0, bottom: 0 }, // sin margen extra
   interval: 200, // cada elemento aparece con 200ms de diferencia
   reset: false
 
 })
 
-ScrollReveal().reveal('.grid-container',{ 
-    origin: 'left', 
-    distance: '80px' 
-});

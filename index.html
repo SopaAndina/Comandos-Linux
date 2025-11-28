@@ -6,7 +6,7 @@
     <title>Chuleta de Comandos Linux</title>
     <link rel="stylesheet" href="./css/style2.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
@@ -18,7 +18,7 @@
         <input type="text" id="search" placeholder="🔍 Buscar comando..." />
 
         <!-- Encabezados -->
-        <div class="grid-container header">
+        <div class="grid-container header efecto">
             <div>Categoría</div>
             <div>Comando</div>
             <div>Descripción</div>
@@ -178,6 +178,35 @@
                 <div class="item code"> <code>mv (archivo) (destino)</code></div>
                 <div class="item"> Mueve o renombra archivos o carpetas.</div>
             </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"> <code>ls -l</code></div>
+                <div class="item"> Muestra los archivos en la lista en formato largo (junto a mas informacion).</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"> <code>ls -lr</code></div>
+                <div class="item"> Muéstrame la lista detallada de archivos</div>
+            </div>
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"> <code>ls -lt</code></div>
+                <div class="item">Muestra primero el archivo más nuevo.</div>
+            </div>
+
+
+            <div class="grid-container row">
+                <div class="item">Archivos</div>
+                <div class="item code"> <code>ls -ltr</code></div>
+                <div class="item">Muestra primero el archivo más viejo y al final el más nuevo</div>
+            </div>
+
+
+
 
         </div>
     </div>
